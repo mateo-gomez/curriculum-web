@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    /* height: 100%; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div,
+section {
+    border: 1px solid red;
+}
+
+#app {
+    /* height: 100%; */
+}
+
+.HomeLayout {
+    /* height: 100%; */
+}
