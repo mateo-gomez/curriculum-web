@@ -1,0 +1,11 @@
+.Card {
+    padding: 20px 20px;
+}
+
+.Card-text {
+    padding: 40px;
+}
+
+.card-text {
+    font-size: 20px;
+}
