@@ -1,19 +1,7 @@
-.logo-container {
-    display: flex;
-    justify-content: space-between;
+.Header {
+  background: #352F30;
+  padding: 1.5em 0;
 }
-
-.jumbotron {
-    margin-bottom: 0;
-    color: white;
-    /* background-image: url(../../images/hero.jpg); */
-    background-image: url(../../images/hero3.jpg);
-    background-size: cover;
-    background-position-y: -300px;
-}
-
-.name,
-.desc {
-    display: inline;
-    background: rgba(80, 80, 80, 0.6);
+.figure {
+  margin-top: 1.5em;
 }
