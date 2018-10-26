@@ -7,8 +7,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin')
 module.exports = (env) => {
     const plugins = [
         new MiniCssExtractPlugin({
-            filename: "[name].css",
-            chunkFilename: "[id].css"
+            filename: "css/[name].css",
+            chunkFilename: "css/[id].css"
         })
     ]
 
@@ -25,7 +25,7 @@ module.exports = (env) => {
         },
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: '[name].js',
+            filename: 'js/[name].js',
             publicPath: path.resolve(__dirname, 'dist')+'/'
         },
         module: {
@@ -53,7 +53,7 @@ module.exports = (env) => {
                     use: {
                         loader: 'file-loader',
                         options: {
-                            limit: 100000,
+                            limit: 10000,
                             name: 'images/[name].[ext]'
                         }
                     }
