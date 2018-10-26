@@ -1,8 +1,8 @@
 import React from 'react'
 // Image
-import '../../images/github.svg'
-import '../../images/mail.svg'
-import '../../images/tel.svg'
+import github from '../../images/github.svg'
+import mail from '../../images/mail.svg'
+import tel from '../../images/tel.svg'
 
 export default function ContactIcon (props) {
   return (
@@ -10,15 +10,15 @@ export default function ContactIcon (props) {
       {
         props.img === 'github' ?
           <div className='mx-3'>
-            <img src="../../images/github.svg" width="25px" />
+            <img src={github} width="25px" />
           </div>
         : props.img === 'mail' ?
           <div className='mx-3'>
-            <img src="../../images/mail.svg" width="25px" />
+            <img src={mail} width="25px" />
           </div>
         : props.img === 'tel' ?
           <div className='mx-3'>
-            <img src="../../images/tel.svg" width="25px" />
+            <img src={tel} width="25px" />
           </div>
         : 
         <div></div>

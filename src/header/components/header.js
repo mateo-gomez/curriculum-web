@@ -4,7 +4,7 @@ import ContactIcon from './contact-icon'
 // Css
 import './header.css'
 // Images
-import '../../images/mateo.jpg'
+import pic from '../../images/mateo.jpg'
 
 export default function Header(props) {
   return (
@@ -13,7 +13,7 @@ export default function Header(props) {
         <div className="row">
           <div className='col-sm-2'>
             <figure className="figure figure-img float-left">
-              <img className="img-fluid img-thumbnail" src="../../images/mateo.jpg" />
+              <img className="img-fluid img-thumbnail" src={pic} />
             </figure>
           </div>
           <div className="col align-self-end">
