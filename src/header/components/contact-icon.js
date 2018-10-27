@@ -10,18 +10,18 @@ export default function ContactIcon (props) {
       {
         props.img === 'github' ?
           <div className='mx-3'>
-            <img src={github} width="25px" />
+            <img src="./dist/images/github.svg" width="25px" />
           </div>
-        : props.img === 'mail' ?
-          <div className='mx-3'>
-            <img src={mail} width="25px" />
-          </div>
-        : props.img === 'tel' ?
-          <div className='mx-3'>
-            <img src={tel} width="25px" />
-          </div>
-        : 
-        <div></div>
+          : props.img === 'mail' ?
+            <div className='mx-3'>
+              <img src="./dist/images/mail.svg" width="25px" />
+            </div>
+          : props.img === 'tel' ?
+            <div className='mx-3'>
+              <img src="./dist/images/tel.svg" width="25px" />
+            </div>
+          :
+            <div></div>
       }
     </div>
   )
