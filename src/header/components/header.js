@@ -14,13 +14,7 @@ export default function Header(props) {
         <div className="row">
           <div className='col-sm-2'>
             <figure className="figure figure-img float-left">
-              <img className="img-fluid img-thumbnail" src={path.resolve(__dirname, pic)} />
-              <img className="img-fluid img-thumbnail" src="images/mateo.jpg" />
-              <img className="img-fluid img-thumbnail" src="/images/mateo.jpg" />
               <img className="img-fluid img-thumbnail" src="dist/images/mateo.jpg" />
-              <img className="img-fluid img-thumbnail" src="/dist/images/mateo.jpg" />
-              <img className="img-fluid img-thumbnail" src="curriculum-web/dist/images/mateo.jpg" />
-              <img className="img-fluid img-thumbnail" src="/curriculum-web/dist/images/mateo.jpg" />
             </figure>
           </div>
           <div className="col align-self-end">
