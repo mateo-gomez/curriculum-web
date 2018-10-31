@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 //components
 import HomeLayout from "../components/home-layout";
 import Header from "../../header/components/header";
